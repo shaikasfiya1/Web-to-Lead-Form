@@ -39,17 +39,20 @@ form
 input
 {
     width: 100%;
-    
-
-
 }
 .submitbtn
 {
-    width: auto;
+    
     background-color: rgb(138, 220, 50);
     border-color: black;
     border-style:double;
     width: 29%;
     margin: auto;
     border-radius: 5px;
+}
+.g-recaptcha
+{
+   padding: 2%;
+display: flex;
+justify-content: center;   
 }
