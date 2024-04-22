@@ -1,5 +1,5 @@
 //this is to populate the lead date in salesforce because it will not populate directly
-let captchachecked=false;
+let captchachecked=true;
 function beforesubmit(event)
 {   
     if(captchachecked)
