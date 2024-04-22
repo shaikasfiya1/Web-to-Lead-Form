@@ -10,7 +10,7 @@
 
 <body>
     <h1> Create Lead </h1>
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5j00000DqpVq" method="POST" onsubmit="beforesubmit()">
+    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D5j00000DqpVq" method="POST" onsubmit="beforesubmit(event)">
     
     <input type=hidden name="oid" value="00D5j00000DqpVq">
     <input type=hidden name="retURL" value="https://shaikasfiya1.github.io/Web-to-Lead-Form/thanks.html">
@@ -33,7 +33,9 @@
     
     
     <input type="submit" class="submitbtn" name="submit">
-    <div class="g-recaptcha" data-sitekey="6LeSfMMpAAAAAJUbw4SdMEYBJHV9ykXh8YvT9_Ok"></div><br>
+    <div class="g-recaptcha" 
+    data-callback="captchasuccess"
+    data-sitekey="6LeSfMMpAAAAAJUbw4SdMEYBJHV9ykXh8YvT9_Ok"></div><br>
     <input type="submit" name="submit">
 
     </form>
